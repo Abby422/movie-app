@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --nav-bar-background : rgb(37, 72, 198);
+  --search-bar-background: rgb(58, 83, 212);
+  --movie-hover: rgb(83, 115, 243);
+  --sidebar-content-bg: rgb(26, 29, 34);
+  --main-content-bg: rgb(19, 24, 27);
+  --link-hover-color: rgb(31, 47, 130);
+}
+.App{
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+}
+nav{
+  position: sticky;
+  background-color: var(--search-bar-background);
+  display: flex;
+  flex-direction: row;
+}
+.navigation-searchbar{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 12px;
+  top: 0;
+}
+.search-bar-section{
+  display: flex;
+  align-items: center;
+  color: rgb(96, 121, 233);
+  font-weight: 500;
+  margin-left: 20px;
+}
+.search-bar-input input{
+  background-color: var(--search-bar-background);
+  font-weight: 700;
+  font-size: 1rem;
+  color: white;
+  border: none;
+}
+.search-bar-input input:focus{
+  outline: none;
+}
+.search-bar-input input::placeholder{
+  color: rgb(96, 121, 233);
+}
+.side-bar-header{
+  display: flex;
+  flex-direction: row;
+  background-color: var(--nav-bar-background);
+  width: 20vw;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  color: white;
+}
+.side-bar{
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--sidebar-content-bg);
+}
+.sidebar-links{
+  margin-top: 30px;
+}
+
+.side-bar-link {
+  width: 25vw;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-size: 0.8rem;
+  color: white;
+}
+.side-bar-link:hover{
+  color: var(--link-hover-color);
+  background-color: rgb(12, 12, 12);
+}
+.a{
+  text-decoration: none;
+  color: white;
+}
+.a:hover{
+  color: var(--link-hover-color);
+}
+.container{
+  background-color: var(--main-content-bg);
+  width: 100%;
+  height: auto;  
+  color: white;
+}
+.container h4{
+  margin: 20px;
+}
+.movie-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+ .movie-card{
+  display: flex;
+  flex-wrap: wrap;  
+  width: 155px;
+  border-radius: 10px;
+}
+ .movie-content{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.movie-content > img{
+  border-radius: 10px;
+  height: 200px;
+  width: 150px;
+  /* object-fit: cover; */
+}  
+.side-bar-container{
+  color: white;
+  margin-top: 20px;
+  margin-left: 120px;
+  padding: 15px;
+}
+.side-bar-container p{
+  margin: 15px -10px;
+}
