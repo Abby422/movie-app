@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Abby422/movie-app/static/css/main.9eed77a7.css",
+    "main.js": "/Abby422/movie-app/static/js/main.caab2184.js",
+    "static/js/787.7c42db31.chunk.js": "/Abby422/movie-app/static/js/787.7c42db31.chunk.js",
+    "index.html": "/Abby422/movie-app/index.html",
+    "main.9eed77a7.css.map": "/Abby422/movie-app/static/css/main.9eed77a7.css.map",
+    "main.caab2184.js.map": "/Abby422/movie-app/static/js/main.caab2184.js.map",
+    "787.7c42db31.chunk.js.map": "/Abby422/movie-app/static/js/787.7c42db31.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9eed77a7.css",
+    "static/js/main.caab2184.js"
+  ]
+}
