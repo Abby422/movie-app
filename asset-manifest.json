@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Abby422/movie-app/static/css/main.9eed77a7.css",
-    "main.js": "/Abby422/movie-app/static/js/main.caab2184.js",
-    "static/js/787.7c42db31.chunk.js": "/Abby422/movie-app/static/js/787.7c42db31.chunk.js",
-    "index.html": "/Abby422/movie-app/index.html",
-    "main.9eed77a7.css.map": "/Abby422/movie-app/static/css/main.9eed77a7.css.map",
-    "main.caab2184.js.map": "/Abby422/movie-app/static/js/main.caab2184.js.map",
-    "787.7c42db31.chunk.js.map": "/Abby422/movie-app/static/js/787.7c42db31.chunk.js.map"
+    "main.css": "/movie-app/static/css/main.9eed77a7.css",
+    "main.js": "/movie-app/static/js/main.9dcea88d.js",
+    "static/js/787.7c42db31.chunk.js": "/movie-app/static/js/787.7c42db31.chunk.js",
+    "index.html": "/movie-app/index.html",
+    "main.9eed77a7.css.map": "/movie-app/static/css/main.9eed77a7.css.map",
+    "main.9dcea88d.js.map": "/movie-app/static/js/main.9dcea88d.js.map",
+    "787.7c42db31.chunk.js.map": "/movie-app/static/js/787.7c42db31.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9eed77a7.css",
-    "static/js/main.caab2184.js"
+    "static/js/main.9dcea88d.js"
   ]
 }
