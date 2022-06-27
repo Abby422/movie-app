@@ -9,7 +9,7 @@ import { DiVisualstudio } from "react-icons/di";
 import { Link } from 'react-router-dom';
 
 function Sidebar() {
-
+  
   return (
     <div className="side-bar">
 
