@@ -11,22 +11,22 @@ function Search() {
   const params = useParams()
   const dispatch = useDispatch()
   const {searchData} = params
-  console.log({searchData})
   const  movies = useSelector(state=> state.movies)
 
   useEffect(() => {
-    axios.get(`https://api.themoviedb.org/3/search/movie?api_key=<<cb8bca77539fea3caad75ae7af7f7b7f>>&query=${searchData}`).then(res => {console.log(res.data)})
+    axios.get(`https://api.themoviedb.org/3/search/movie?api_key=cb8bca77539fea3caad75ae7af7f7b7f&query=${searchData}`).then(res => dispatch(addMovie(res.data.results)))
   }, [searchData])
-  console.log(movies)
   return (
     <div className='container'>
       <Nav />
       <div className=''>
         <h4>Search Results for  '{searchData}'</h4>
-         {(movies.includes(searchData) || movies === searchData) ?
-            movies.map(movie => {return (<Movie movie={movie}/>)}):
+         <div className='movie-container'>
+         {movies ?
+            movies.map(movies => (<Movie  movies={movies}/>)):
             <h4>Result not found</h4>
           }
+          </div>
       </div>
     </div>
   )
